@@ -2,16 +2,12 @@
 
 > A playful Valentine's Day website where the "No" button literally runs away from your cursor!
 
-**🌐 Live Demo:** [https://impossible-to-reject-valentine-prop.vercel.app/](https://impossible-to-reject-valentine-prop.vercel.app/)
+**🌐 Try it yourself:** [https://impossible-to-reject-valentine-prop.vercel.app/](https://impossible-to-reject-valentine-prop.vercel.app/)
 
 ## 🎯 What is this?
 
-Ever wanted to ask someone to be your Valentine in the most fun and creative way possible? This website lets you create personalized Valentine's proposals where:
+![valentine](https://github.com/user-attachments/assets/d41154b6-0b16-4835-8a16-0b08009c1228)
 
-- ✨ **The "No" button runs away** when they try to click it
-- 💖 **Only "Yes" is clickable** - making rejection nearly impossible!
-- 📊 **Track their response** in real-time on your private dashboard
-- 🎉 **Celebrate together** with a beautiful animation when they say yes
 
 ## 🚀 How It Works
 
