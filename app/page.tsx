@@ -66,10 +66,10 @@ export default function Home() {
 
         <div className="space-y-2">
           <h1 className="text-4xl font-bold text-gray-800">
-            Valentine's Link Generator
+            Valentine&apos;s Link Generator
           </h1>
           <p className="text-gray-600">
-            Create a special Valentine's proposal that's impossible to reject!
+            Create a special Valentine&apos;s proposal that&apos;s impossible to reject!
           </p>
         </div>
 
@@ -93,7 +93,7 @@ export default function Home() {
 
               <div className="text-left">
                 <label htmlFor="crushName" className="block text-sm font-medium text-gray-700 mb-2">
-                  Your Crush's Name
+                  Your Crush&apos;s Name
                 </label>
                 <input
                   id="crushName"
@@ -112,7 +112,7 @@ export default function Home() {
               disabled={loading}
               className="w-full bg-pink-500 hover:bg-pink-600 disabled:bg-pink-300 text-white font-bold py-4 px-8 rounded-full text-lg transition-all duration-200 transform hover:scale-105 shadow-lg"
             >
-              {loading ? "Generating..." : "Generate Valentine's Link 💖"}
+              {loading ? "Generating..." : "Generate Valentine&apos;s Link 💖"}
             </button>
           </form>
         ) : (

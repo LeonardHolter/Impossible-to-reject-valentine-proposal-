@@ -206,7 +206,7 @@ export default function ValentinesProposal() {
         <div className="text-center space-y-4">
           <div className="text-6xl">😢</div>
           <h1 className="text-2xl font-bold text-gray-800">Link not found</h1>
-          <p className="text-gray-600">This Valentine's proposal doesn't exist or has expired.</p>
+          <p className="text-gray-600">This Valentine&apos;s proposal doesn&apos;t exist or has expired.</p>
         </div>
       </main>
     );
@@ -219,7 +219,7 @@ export default function ValentinesProposal() {
           <div className="text-8xl animate-bounce">🎉</div>
           <h1 className="text-5xl font-bold text-pink-600">Yay! 💕</h1>
           <p className="text-2xl text-gray-700">
-            I knew you would say yes! Happy Valentine's Day! 💖
+            I knew you would say yes! Happy Valentine&apos;s Day! 💖
           </p>
           <div className="flex gap-4 justify-center text-4xl">
             <span className="animate-pulse">❤️</span>
@@ -241,6 +241,7 @@ export default function ValentinesProposal() {
               src="/puss.gif" 
               alt="Cute cat"
               className="w-full h-full object-contain rounded-full"
+              // eslint-disable-next-line @next/next/no-img-element
             />
           </div>
         </div>
