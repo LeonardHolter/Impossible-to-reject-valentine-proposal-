@@ -67,7 +67,7 @@ export default function Dashboard() {
         <div className="text-center space-y-4">
           <div className="text-6xl">😢</div>
           <h1 className="text-2xl font-bold text-gray-800">Dashboard not found</h1>
-          <p className="text-gray-600">This proposal doesn&apos;t exist.</p>
+          <p className="text-gray-600">This proposal doesn't exist.</p>
           <button
             onClick={handleCreateNew}
             className="mt-4 bg-pink-500 hover:bg-pink-600 text-white font-bold py-3 px-8 rounded-full transition-all"
@@ -84,7 +84,7 @@ export default function Dashboard() {
       return {
         icon: "⏳",
         title: "Waiting for Response",
-        message: `${proposal.crush_name} hasn&apos;t responded yet. Keep your fingers crossed!`,
+        message: `${proposal.crush_name} hasn't responded yet. Keep your fingers crossed!`,
         color: "text-yellow-600",
         bgColor: "bg-yellow-50",
         borderColor: "border-yellow-200",
@@ -102,7 +102,7 @@ export default function Dashboard() {
       return {
         icon: "💔",
         title: "They Said No",
-        message: `Unfortunately, ${proposal.crush_name} declined. Don&apos;t worry, there are plenty of fish in the sea! 🐟`,
+        message: `Unfortunately, ${proposal.crush_name} declined. Don't worry, there are plenty of fish in the sea! 🐟`,
         color: "text-red-600",
         bgColor: "bg-red-50",
         borderColor: "border-red-200",
@@ -118,7 +118,7 @@ export default function Dashboard() {
         <div className="text-center space-y-2">
           <div className="text-6xl">{status.icon}</div>
           <h1 className="text-4xl font-bold text-gray-800">Your Dashboard</h1>
-          <p className="text-gray-500">Track your Valentine&apos;s proposal</p>
+          <p className="text-gray-500">Track your Valentine's proposal</p>
         </div>
 
         <div className="border-t border-b border-gray-200 py-6 space-y-3">
@@ -160,7 +160,7 @@ export default function Dashboard() {
             onClick={handleCopyLink}
             className="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-8 rounded-full transition-all duration-200 shadow-lg"
           >
-            📋 Copy Valentine&apos;s Link
+            📋 Copy Valentine's Link
           </button>
           
           <button
